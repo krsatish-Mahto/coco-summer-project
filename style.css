@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+header {
+  background: #0b0b0b;
+  padding: 20px 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: #000;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1 1 50%;
+}
+
+.hero-content h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 400px;
+}
+
+.btn {
+  background: #f7c700;
+  padding: 12px 25px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1 1 40%;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.market {
+  padding: 60px 10%;
+  background: #fff;
+  color: #111;
+}
+
+.market h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.market p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.market-table .coin {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.red {
+  color: red;
+}
